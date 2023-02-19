@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0,0,0,0.6);
+    height: 80px;
+}
+
+.logo{
+    color: #EC4141;
+    margin-top: 25px;
+}
+
+.menu-container{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-container a.active-menu{
+    background-color: #EC4141;
+}
+
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: 0.5s;
+}
+
+.menu-container a:hover{
+    color: #EC4141;
+}
+
+section.main{
+    position: relative;
+    min-height: 800px;
+    background-image: url('img/pexels-victor-freitas-2261477.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-chamada{
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+
+.text-chamada h1{
+    font-size: 60px;
+    text-transform: uppercase;
+} 
+
+.text-chamada h3{
+    font-size: 20px;
+}
+
+section.produtos{
+    background-color: #EC4141;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+section.produtos h3{
+    text-transform: uppercase;
+}
+
+.produto-single{
+    text-align: left;
+}
+
+.produto-container{
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.produto-single{
+    width: 100%;
+    margin: 0 10px;
+}
+
+.produto-single h3{
+    text-align: center;
+    background-color: #EC4141;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.produto-single p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+.produto-single img{
+    width: 100%;
+    display: block;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8PX;
+    color: white;
+}
+
+p{
+    font-size: 13px;
+}
+
+.paragraph{
+    margin-top: 15px;
+}
